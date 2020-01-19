@@ -1,0 +1,26 @@
+title: Stackbit Fresh Theme
+baseURL: /
+params:
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Wing-Kam
+    tagline: Technical Consultant. AWS Certified. Open Source Contributor.
+    profile_img: >-
+      https://res.cloudinary.com/practicaldev/image/fetch/s--tcko9qhm--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/303048/cc5f2b24-7138-491f-a0f4-487fae9c6429.png
+    bg: dark
+    has_nav: true
+    has_social: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - text: Made with Stackbit
+        url: 'https://www.stackbit.com'
+        new_window: true
+      - text: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
